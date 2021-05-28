@@ -4,19 +4,19 @@ A simple console application written in .NET Core that can convert Rich-Text (.r
 
 ## Usage
 
-`ConvertRTF
-  Converts a rich-text file (.rtf) to HTML or plain text
+    ConvertRTF
+      Converts a rich-text file (.rtf) to HTML or plain text
 
-Usage:
-  ConvertRTF [options]
+    Usage:
+      ConvertRTF [options]
 
-Options:
-  --input <input>    The path to the .rtf file to be converted.
-  --text             If plain text is the desired output
-  --html             If HTML is the desired output (the default) [default: True]
-  --output <output>  The path to the output file (defaults to input file with different extension) [default: ]
-  --version          Show version information
-  -?, -h, --help     Show help and usage information`
+    Options:
+      --input <input>    The path to the .rtf file to be converted.
+      --text             If plain text is the desired output
+      --html             If HTML is the desired output (the default) [default: True]
+      --output <output>  The path to the output file (defaults to input file with different extension) [default: ]
+      --version          Show version information
+      -?, -h, --help     Show help and usage information`
 
   ## Information
 
